@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="layout.SplashScreen3"
+             android:background="@color/c_red_crayola">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ru.katso.livebutton.LiveButton
+            android:layout_width="match_parent"
+            android:id="@+id/btnStart"
+            android:text="Mulai"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            app:corners="4dp"
+            app:normalHeight="6dp"
+            app:pressedHeight="2dp"
+            app:backgroundColor="@color/c_salmon"
+            app:shadowColor="@color/c_sangria"/>
+
+    <TextView
+            android:text="Are You Ready ?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textSize="20pt"
+            android:fontFamily="casual"
+            android:textColor="@color/c_aeroblue"/>
+
+</FrameLayout>

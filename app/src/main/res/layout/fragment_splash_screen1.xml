@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="layout.SplashScreen1"
+             android:background="@color/c_androidgreen">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+        <TextView
+                android:layout_gravity="center"
+                android:text="Touch Tab Menu to Navigate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="12pt"
+                android:fontFamily="casual"
+                android:textColor="@color/c_aeroblue"
+                android:layout_alignTop="@+id/textView2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="-10dp"
+                android:layout_marginTop="15dp"/>
+
+        <ImageView
+                android:layout_width="322dp"
+                android:layout_height="353dp"
+                app:srcCompat="@mipmap/ss1"
+                android:id="@+id/imageView4"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="0.47"/>
+
+        <TextView
+                android:layout_gravity="center"
+                android:text="Fill The Blank With Your Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="12pt"
+                android:fontFamily="casual"
+                android:textColor="@color/c_aeroblue"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/imageView4"
+                android:layout_marginBottom="-10dp"
+                android:layout_marginTop="-10dp"/>
+
+        <TextView
+                android:layout_gravity="center"
+                android:text="Touch Check to get the result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="12pt"
+                android:fontFamily="casual"
+                android:textColor="@color/c_aeroblue"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/imageView4"
+                android:layout_marginBottom="-10dp"
+                android:layout_marginTop="15dp"/>
+    </LinearLayout>
+</FrameLayout>
